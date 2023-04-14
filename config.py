@@ -40,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "HI I AM BOT FOR FILE SHARING. JOIN @linksforreal To Get File links")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5925338670 965241934 5204618807").split()):
+    for x in (os.environ.get("ADMINS", "5925338670 965241934 5812608098").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
